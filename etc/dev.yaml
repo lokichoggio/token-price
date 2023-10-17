@@ -6,8 +6,8 @@ http:
   addr: 0.0.0.0:8080
 
 log:
-  file: "./log/token-price.log"
-  errFile: "./log/token-price.log"
+  file: "./logs/token-price.log"
+  errFile: "./logs/token-price-err.log"
   # debug info warn error
   level: "debug"
   # 日志json格式输出, 如果不输出json, 可以配置成 console
