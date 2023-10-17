@@ -1,0 +1,24 @@
+ginMode: debug
+
+apiKey: YOUR_API_KEY
+
+http:
+  addr: 0.0.0.0:8080
+
+log:
+  file: "./log/token-price.log"
+  errFile: "./log/token-price.log"
+  # debug info warn error
+  level: "debug"
+  # 日志json格式输出, 如果不输出json, 可以配置成 console
+  encoding: "json"
+  # 是否打印到标准输出中
+  stdout: true
+  # 日志文件大小限制, 单位: MB
+  maxSize: 1024
+  # 最大保留日志文件数量
+  maxBackups: 30
+  # 日志文件保留天数
+  maxAge: 30
+  # 是否压缩
+  compress: true
